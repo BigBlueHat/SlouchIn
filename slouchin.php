@@ -8,7 +8,7 @@ if (count($_POST) == 0) {
 	exit;
 }
 
-require_once '../../apps/sag/src/Sag.php';
+require_once 'Sag/Sag.php';
 
 /*$username="admin"; // Mysql username
 $password="password"; // Mysql password

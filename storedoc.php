@@ -1,7 +1,7 @@
 <?php
 header('Content-Type:text/plain');
 require_once 'check_and_start_session.php';
-require_once '../../apps/sag/src/Sag.php';
+require_once 'Sag/Sag.php';
 
 $s = new Sag();
 $s->setDatabase('slouchin_test');

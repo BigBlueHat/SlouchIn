@@ -3,12 +3,14 @@
 Cookie-based authentication example in PHP for CouchDB.
 
 ## Setup
+### Pre-reqs
 0. Install and run CouchDB (on port 5984);
-0.1. Setup an admin account for your CouchDB (if you haven't already)
-1. Create a "slouchin_test" database
-2. Set both Admin and Reader permissions on that database to the admin account you created above (see "Security..." for that DB in Futon)
-3. Load up the slouchin index.html file
-4. Login with the admin account you just created
+   0. Setup an admin account for your CouchDB (if you haven't already)
+1. Copy the contents of the 'src' folder of the [Sag project fork by BigBlueHat](http://github.com/BigBlueHat/sag) into a 'Sag' folder inside this directory. The fork includes the cookie authentication code.
+2. Create a "slouchin_test" database
+3. Set both Admin and Reader permissions on that database to the admin account you created above (see "Security..." for that DB in Futon)
+4. Load up the slouchin index.html file
+5. Login with the admin account you just created
 
 After login, you'll be taken to a "private.php" page which just outputs some text (think the page from your old app).
 
